@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+<div class="containlogo">
+<ul>
+<li><a href="index.html">ABOUT</a></li>
+<li><a href="image.html">GALLERY</a></li>
+       <li><a href="shop.html">SHOP</a></li>
+<li><a href="login.html">LOGIN</a></li>
+<li><a href="reg.html">REGISTER</a></li>    
+       <li><a href="contact.html">CONTACT</a></li>
+       </ul>
+     </div>
+<div class="contain1">
+<img src="/storage/emulated/0/Cake_template/Cake_banner.jpeg" width="1500px" height="440px">
+<div class="contain1_content">
+ANGEL CAKES 
+</div>
+</div>
+<div class="marquee_content ">
+<marquee>
+
+BEST CAKES FOR EVERY OCCASION
+</marquee>
+</div>
+<div class="sidebar">
+
+<div class="log">
+<div class="h">
+<h1>LOGIN HERE</h1>
+</div>
+<form name="f1" action="#" method="post" onSubmit="return validateForm()">
+<p>ENTER EMAIL</p>
+<input type="Email" uname="email" placeholder="Enter Email" class="txt" required>
+<p>ENTER PASSWORD</p>
+<input type="Password" uname="pwd" placeholder="Enter Password" class="txt" required>
+<br><br><br>
+<input type="submit" value="SIGN IN"
+class="submit_btn"><br>
+<a href="reg.html" class="log_link">Don't have an account ? Sign up</a>
+</form>
+</div>
+
+
+</div>
+<div class="containlogo_end">
+<marquee>
+@2020. ABC. All rights are reserved.
+</marquee>
+     </div></div>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() 
+{
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
+

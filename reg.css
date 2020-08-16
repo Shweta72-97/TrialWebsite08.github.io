@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px;
+}
+.container
+{
+height:1900px;
+width:1500px;
+background-color:hsla(184,80%,39%,1.00);
+}
+.containlogo
+{
+	width:1500px;
+	height:70px;
+	background-color:hsla(0,0%,0%,1.00);
+   //background-color:hsla(184,80%,39%,1.00);
+	font-weight:bold;
+}
+.containlogo ul
+{
+	list-style:none;
+	margin:0px;
+}
+.containlogo ul li
+{
+	list-style:none;
+	margin:0px;
+}
+.containlogo ul li a
+{
+	width:170px;
+	height:40px;
+ display:block;
+	float:left;
+	text-align:center;
+	padding-top:18px;
+	font-size:25px;
+//	color:#fff;
+  color:hsla(184,80%,39%,1.00);
+  font-style:italic;
+  text-decoration:none;
+}
+.containlogo ul li a:hover
+{
+	color:blue;
+}
+.contain1
+{
+	width:1500px;
+	height:420px;
+  padding-top:10px;
+}
+.sidebar
+{
+width:1500px;
+height:1300px;
+background-color:black;
+margin-top:10px;
+padding-top:70px;
+}
+.contain1_content
+{
+width:400px;
+height:400px;
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:60px;
+font-weight:bold;
+margin-top:-150px;
+margin-left:900px;
+}
+
+.marquee_content
+{
+font-size:30px;
+height:60px;
+width:1500px;
+background-color:black;
+//color:white;
+color:hsla(184,80%,39%,1.00);
+margin-top:30px;
+padding-top:15px;
+}
+.reg
+{
+  width:450px;
+	height:620px;
+	background:black;
+	color:white;
+	margin-top:180px;
+	margin-left:525px;
+	border:2px solid white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:55px;
+	padding-right:30px;
+  font-size:20px;
+}
+.h
+{
+	color:hsla(184,80%,39%,1.00);
+  margin-left:5px;
+ }
+.txt
+{
+width:330px;
+height:30px;
+font-size:18px;
+color:grey;
+}
+
+.reg_link
+{
+color:white;
+margin-left:15px;
+}
+.reg_link:hover
+{
+color:blue;
+}
+.submit_btn
+{
+margin-top:10px;
+height:40px;
+width:330px;
+background-color:hsla(184,80%,39%,1.00);
+font-size:20px;
+border: 2px solid black;
+}
+.containlogo_end
+{
+	width:1500px;
+	height:50px;
+	background-color:hsla(0,0%,0%,1.00);
+	font-weight:bold;
+  margin-top:10px;
+  //color:white;
+  color:hsla(184,80%,39%,1.00);
+  font-size:20px;
+  padding-top:10px;
+}
+*{
+box-sizing:border-box;
+}
+
+
+@-webkit-keyframes fade 
+{
+  from
+ {
+opacity: .4
+} 
+  to
+ {
+opacity: 1
+}
+}
+
+@keyframes fade
+ {
+  from 
+{
+opacity: .4
+} 
+  to 
+{
+opacity: 1
+}
+}
+
+@media only screen and (max-width: 300px) 
+{
+  .text 
+{
+font-size: 11px
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
