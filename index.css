@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	margin:0px;
+}
+.container
+{
+height:1970px;
+width:1500px;
+background-color:hsla(184,80%,39%,1.00);
+}
+.containlogo
+{
+	width:1500px;
+	height:90px;
+	background-color:hsla(0,0%,0%,1.00);
+   //background-color:hsla(184,80%,39%,1.00);
+	font-weight:bold;
+margin-top:-20px;
+}
+.containlogo ul
+{
+	list-style:none;
+	margin:0px;
+}
+.containlogo ul li
+{
+	list-style:none;
+	margin:0px;
+}
+.containlogo ul li a
+{
+	width:170px;
+	height:40px;
+ display:block;
+	float:left;
+	text-align:center;
+	padding-top:38px;
+	font-size:25px;
+//	color:#fff;
+  color:hsla(184,80%,39%,1.00);
+  font-style:italic;
+  text-decoration:none;
+}
+.containlogo ul li a:hover
+{
+	color:blue;
+}
+.contain1
+{
+	width:1500px;
+	height:420px;
+  padding-top:10px;
+}
+
+.contain1_content
+{
+width:400px;
+height:400px;
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:60px;
+font-weight:bold;
+margin-top:-150px;
+margin-left:900px;
+}
+
+.contain2
+{
+ width:100%;
+ height:700px;
+ background-color:pink;
+ margin-top:140px;
+}
+
+.marquee_content
+{
+height:60px;
+width:1500px;
+background-color:black;
+font-size:25px;
+//color:white;
+color:hsla(184,80%,39%,1.00);
+margin-top:30px;
+padding-top:15px;
+}
+.sidebar
+{
+width:1500px;
+height:1300px;
+background-color:black;
+margin-top:10px;
+padding-top:70px;
+}
+.sidebar_container
+{
+width:800px;
+height:500px;
+background-color:black;
+margin-top:20px;
+margin-left:30px;
+}
+.sidebar_heading
+{
+font-size:30px;
+//color:white;
+margin-left:110px;
+color:hsla(184,80%,39%,1.00);
+}
+.pretxt
+{
+font-size:25px;
+color:white;
+}
+.First_Caption
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+margin-top:-90px;
+font-size:30px;
+font-weight:bold;
+margin-left:120px;
+}
+.Second_Caption
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+margin-top:-90px;
+font-size:30px;
+font-weight:bold;
+margin-left:150px;
+}
+.Third_Caption
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+margin-top:-90px;
+font-size:30px;
+font-weight:bold;
+margin-left:170px;
+}
+
+.slideshow-container 
+{
+ max-width:700px;
+ height:500px;
+ position:relative;
+ margin-top:-500px;
+margin-left:730px;
+background-color:yellow;
+}
+.small_container1
+{
+width:300px;
+height:300px;
+background-color:green;
+margin-top:30px;
+margin-left:60px;
+}
+.small_container2
+{
+width:300px;
+height:300px;
+background-color:green;
+margin-top:-300px;
+margin-left:420px;
+}
+.small_container3
+{
+width:300px;
+height:300px;
+background-color:green;
+margin-top:-300px;
+margin-left:780px;
+}
+.small_container4
+{
+width:300px;
+height:300px;
+background-color:green;
+margin-top:-300px;
+margin-left:1140px;
+}
+.Special_Cakes
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:30px;
+margin-top:100px;
+margin-left:40px;
+font-style:italic;
+}
+.Anniversary
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:20px;
+margin-top:20px;
+text-decoration:underline;
+margin-left:50px;
+}
+.WelcomeBaby
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:20px;
+margin-top:20px;
+text-decoration:underline;
+margin-left:50px;
+}
+.Birthday
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:20px;
+margin-top:20px;
+text-decoration:underline;
+margin-left:70px;
+}
+.Wedding
+{
+//color:white;
+color:hsla(184,80%,39%,1.00);
+font-size:20px;
+margin-top:20px;
+text-decoration:underline;
+margin-left:70px;
+}
+
+.containlogo_end
+{
+	width:1500px;
+	height:50px;
+	background-color:hsla(0,0%,0%,1.00);
+	font-weight:bold;
+  margin-top:160px;
+  //color:white;
+  color:hsla(184,80%,39%,1.00);
+  font-size:20px;
+  padding-top:10px;
+}
+*{
+box-sizing:border-box;
+}
+.mySlides
+{
+display:none;
+}
+img
+{
+vertical-align:middle;
+}
+
+.numbertext
+{
+  //color:white;
+  color:hsla(184,80%,39%,1.00);
+  font-size:12px;
+  padding:8px 12px;
+  position:absolute;
+  top:0;
+}
+
+.dot
+ {
+  height: 15px;
+  width: 15px;
+  margin-left: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top:80px;
+}
+.active
+ {
+  background-color:#717171;
+}
+.dot_position
+{
+margin-left:800px;
+}
+
+.fade
+{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration:1.5s;
+  animation-name:fade;
+  animation-duration:1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from
+ {
+opacity: .4
+} 
+  to
+ {
+opacity: 1
+}
+}
+
+@keyframes fade
+ {
+  from 
+{
+opacity: .4
+} 
+  to 
+{
+opacity: 1
+}
+}
+
+@media only screen and (max-width:300px) 
+{
+  .text 
+{
+font-size: 11px
+}
+}
